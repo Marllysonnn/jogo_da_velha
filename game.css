@@ -1,0 +1,34 @@
+color{
+    color: #1A2B33;
+    color: #F2B236;
+    color: #34C2BE;
+    color: #A9BEC9;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: #1A2B33;
+}
+header{
+    width: 100vw;
+    display: flex;
+    margin: 0px 80px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF50;
+}
+.logo{
+    display: flex;
+    width: 10%;
+    justify-content: space-evenly;
+}
+.turno{
+    display: flex;
+    gap: 40px;
+}
+.reniciar{
+    width: 6%;
+    height: 40%;
+    background-color: #A9BEC9;
+}

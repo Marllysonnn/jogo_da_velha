@@ -1,0 +1,103 @@
+color{
+    color: #1A2B33;
+    color: #F2B236;
+    color: #34C2BE;
+    color: #A9BEC9;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    background-color: #1A2B33;
+}
+.logo{
+    display: flex;
+    width: 10%;
+    justify-content: space-evenly;
+}
+.container_escolha{
+    width: 40%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    color: #A9BEC9;
+    letter-spacing: 1px;
+
+    background-color: #1d3844;
+}
+.container_escolha :nth-child(3){
+    color: #A9BEC950;
+}
+.seletor{
+    position: absolute;
+    left: 34%;
+    width: 190px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #A9BEC9;
+}
+.escolha a img{
+    width: 60px;
+}
+.tipo{
+    width: 40%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.tipo a{
+    width: 100%;
+    height: 40%;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #1A2B33;
+    font-weight: 900;
+    letter-spacing: 1px;
+    box-shadow: inset 0px -8px #00000030;
+    background-color: #F2B236;
+}
+.tipo :nth-child(2){
+    background-color: #34C2BE;
+}
+.alternancia::before {
+    content: url(arquivos/bola.svg);
+  }
+  
+.alternancia.escolha-o::before {
+    content: url(arquivos/Xis.svg);
+  }
+  
+.alternancia::before,
+.alternancia.escolha-o::before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    background-color: #1A2B33;
+    border-radius: 10px;
+  }
+  
+button {
+    width: 200px;
+    height: 100px;
+    border: none;
+    margin-top: -115px;
+    background-color: #FFFFFF00;
+    color: #1A2B33;
+    cursor: pointer;
+  }
+  
